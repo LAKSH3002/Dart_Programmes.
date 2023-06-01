@@ -87,20 +87,6 @@ is handled by a package called commone front end(CFE)
  JIT - is used in development phase
   */
 
- // to write in book
- 
- /* 
- - what is dart vm?- done
- - how is dart program compiled? - done
- - what are packages in dart - done
- - what is JIT compiler? - done
- - what is AOT compiler? - done
- - JIT VS AOT - done
- - what is dart snapshot
- - Kernel snapshots
- - Standard AOT and AOT snapshot differneces
- */
-
 // JIT VS AOT
 /*
 JIT - Compilation is done at runtime line by line 
@@ -117,6 +103,3 @@ AOT - Compilation is done on the entire code before runtime
 snapshot is optimized for fast startup time
 - jit,aot,kernel snapshots
 */
-
-/*
-Running from snapshot - no training run */
