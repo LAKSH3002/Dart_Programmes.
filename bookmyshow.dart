@@ -55,11 +55,11 @@ class _MyStartScreenState extends State<MyStartScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               // text
-              const Text('Welcome To',style: TextStyle(fontSize: 52,fontWeight: FontWeight.bold,color: Color.fromARGB(255, 72, 5, 5),fontStyle: FontStyle.italic),),
+              const Text('Welcome To',style: TextStyle(fontSize: 42,fontWeight: FontWeight.bold,color: Color.fromARGB(255, 72, 5, 5),fontStyle: FontStyle.italic),),
             
-              Image.asset('images/bookmyshow-logo-vector.png'),
+              Image.asset('images/bookmyshow-logo-vector.png',height: 150),
 
-              const SizedBox(height: 60),
+              const SizedBox(height: 20),
               
               // button 1
               ElevatedButton(style: ElevatedButton.styleFrom(
@@ -144,7 +144,7 @@ class _MyappSignUpState extends State<MyappSignUp> {
             const TextField( decoration: InputDecoration(  
                       border: OutlineInputBorder(),  labelText: 'Confirm password',  hintText: 'Confirm',),),
 
-            const SizedBox(height: 30),
+            const SizedBox(height: 25),
             
             TextButton(
               style: TextButton.styleFrom(
@@ -240,6 +240,7 @@ class Myhomepage extends StatefulWidget {
 }
 
 class _MyhomepageState extends State<Myhomepage> {
+  bool isclick = false;
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
@@ -251,15 +252,24 @@ class _MyhomepageState extends State<Myhomepage> {
          child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children:  [
-            Image.asset('images/guardians.jpg',width: 900,height:190),
+           GestureDetector(
+            onTap: (){
+              setState(() {
+                isclick = !isclick;
+              });
+            },
+            child:isclick?Image.asset('images/music.jpg',width:320,height:170)
+            :Image.asset('images/arijit.jpeg',width: 350,height: 170)),
 
-           const  SizedBox(height:8),
+           const  SizedBox(height:2),
 
-            Image.asset('images/rcbvsdc.jpg',width: 900,height: 190),
+           Image.asset('images/cskvsgt_finals.jpeg',width:800,height:170),
 
-            const SizedBox(height: 4),
+           const SizedBox(height: 2),
 
-            Image.asset('images/arijit.jpeg',width:350)
+           Image.asset('images/guardians.jpg',width:305),
+
+           const SizedBox(height: 50)
           ],
          )
         // Image.asset('')
