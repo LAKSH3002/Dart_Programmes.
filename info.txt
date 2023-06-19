@@ -1,12 +1,12 @@
 
 Some Important terms of flutter app
 
-1 - Material app  : wraps a number of widgets that are commonly required 
+1 - Material app    : wraps a number of widgets that are commonly required 
                     for material design applications.
                     Material App automatically creates a default selection style
                     and uses colors in the ThemeData.textSelectionTheme.     
 
-2 - Scaffold      : Its a widget used to implement the basic material design
+2 - Scaffold        : Its a widget used to implement the basic material design
                     visual layout structure. 
                     It is quick enough to create a general-purpose mobile application 
                     and contains almost everything we need to create a functional and 
@@ -16,14 +16,14 @@ Some Important terms of flutter app
                     snackbar,floatingActionButtonLocation and Animation,backgroundcolor and more:
                     website: https://www.geeksforgeeks.org/scaffold-class-in-flutter-with-examples/
 
-3 -  Appbar       : The bar at the top of the app having title and color and background color.
+3 -  Appbar         : The bar at the top of the app having title and color and background color.
                     and Textstyles and more.
 
-4 - Body          : contains column which has children in its own
+4 - Body            : contains column which has children in its own
                     The children of a column of can have sizedbox, text and floating
                     action button and elevated button.
 
-5 - ElevatedButton: has Text styles , button color properties and onstate 
+5 - ElevatedButton  : has Text styles , button color properties and onstate 
                     functionalilty with it.
 
 6 - Stateful widget : if a widget can change - when a user interacts with it it is stateful.
@@ -34,5 +34,23 @@ Some Important terms of flutter app
 7 - stateless widget : They do not have a state and is a widget that
                         describes part of user interface by building a bunch of
                         othe widgets. icon,iconbutton and text are stateless widgets.
+
+8 - Column           : Column Menthods - MainAxisAlignmnet, mainAxisSize,CrossAxisAligment
+                       textDirection, VerticalDirection, TextBaseline. 
+                       column has children which is said to be a list of widgets. Enclosed in 
+                       Squared Brackets. Textbaseline - Responsible for alignment of text in row or column
+                       widget w.r.t a baseline.
+                       body:column:children:text,sizedbox,container(child,padding,style,text)
+
+9 - Row              : Row Methods - MainAxisAlignmnet, mainAxisSize, CrossAxisAligment,textDirection
+                        VerticalDirection, TextBaseline , list of widgets.
+                       body:Row:children:text,sizedbox,container(child,padding,style,text)
+
+10 - BottomNavigationbar : We can display only a small number of widgets in bottom navigation that can be 2 to 5.
+                           It must have at least two navigation items.
+                           icon and title properties necessary.
+                           Properties: title , activeicon and backgroundcolor.
+
+                         
 
 
