@@ -50,7 +50,7 @@ Some Important terms of flutter app
                            It must have at least two navigation items.
                            icon and title properties necessary.
                            Properties: title , activeicon and backgroundcolor.
-
+next Widget coming up soon.
                          
 
 
