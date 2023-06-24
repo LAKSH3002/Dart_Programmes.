@@ -51,6 +51,13 @@ Some Important terms of flutter app
                            icon and title properties necessary.
                            Properties: title , activeicon and backgroundcolor.
 next Widget coming up soon.
+
+We Write our codes inside the library folder provided by flutter application.
+If we have a lareg project in hand we divide it the following ways:
+ Constants - these will comprise of constant values like constant colors and width of containers etc.
+ Screens - The entire Screen is designed at this part, there can be n number of screens.
+ Widgets - In this part the widgets are designed specificially and they are imported to the screens page.
+           This part also comprised of the main part of the app which is given a run to display the app.
                          
 
 
