@@ -40,24 +40,39 @@ Some Important terms of flutter app
                        column has children which is said to be a list of widgets. Enclosed in 
                        Squared Brackets. Textbaseline - Responsible for alignment of text in row or column
                        widget w.r.t a baseline.
-                       body:column:children:text,sizedbox,container(child,padding,style,text)
+                       body: column: children: text,sizedbox,container(child,padding,style,text)
 
 9 - Row              : Row Methods - MainAxisAlignmnet, mainAxisSize, CrossAxisAligment,textDirection
                         VerticalDirection, TextBaseline , list of widgets.
-                       body:Row:children:text,sizedbox,container(child,padding,style,text)
+                       body: Row: children: text,sizedbox,container(child,padding,style,text)
 
 10 - BottomNavigationbar : We can display only a small number of widgets in bottom navigation that can be 2 to 5.
                            It must have at least two navigation items.
                            icon and title properties necessary.
                            Properties: title , activeicon and backgroundcolor.
-next Widget coming up soon.
+
+
+11 - Container           : A container is just like a box , it can have columns,rows,listview in it or can be Enclosed
+                           in it. It can be decorated, have alignement, given margins and be given width and height of it.
+                           We generally use it to add images and text together in a single box.
+
+12 - SizedBox            : A sized box is just a simple box. It only have the width and height to be mentioned and also can 
+                           take in child as row and column or container or anything. But in general a sized box use to give 
+                           a width or height to create a gaps between texts and images on a page.
+
+13 - Text                : It is used to display text on the screen. It also the features and functionality to edit and
+                           Decorate text. It is a child element to all the other widgets.
+
+
+
 
 We Write our codes inside the library folder provided by flutter application.
-If we have a lareg project in hand we divide it the following ways:
+If we have a large project in hand we divide it the following ways:
  Constants - these will comprise of constant values like constant colors and width of containers etc.
  Screens - The entire Screen is designed at this part, there can be n number of screens.
  Widgets - In this part the widgets are designed specificially and they are imported to the screens page.
            This part also comprised of the main part of the app which is given a run to display the app.
+
                          
 
 
