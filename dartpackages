@@ -1,0 +1,31 @@
+// components of dart program
+// import 'package:lakshflutterproj/beauty.dart';
+/* 
+Dart package
+- directory containing , at min a pubsec.yaml file
+- dart ecosystem uses packages to manage
+shard software(libraries and tools)
+Pub package manager
+
+You can create a project in cmd without having any packages included in it
+The program still runs 
+but the pubsec file command on running it will show a run time false message.
+pubsec.yaml - consists of name and environment
+
+Dart pubsec yaml - going a bit difficult - do it a bit latter 
+
+*/
+
+// import 'encapss_chococake.dart';
+// import 'pastry.dart';
+// void main(List<String> args)
+// {
+//   Chococake c= Chococake();// class is called by the class name 
+
+//   // non-private property
+//   print(c.cakee);
+
+//   // private property
+//  //  print(c._piece1); // throws ans error - not defined
+//   print(c.piece2);
+// }
