@@ -1,0 +1,13 @@
+Q1) WHat is state management in flutter?
+
+- Flutter state management involves controlling UI behaviour and appearance through data. As user input and events prompt state changes
+  effective management is crucial for responsive high-performing apps. Flutter offers various stateful approaches like setState(), BLoC, Provider,
+  Riverpod,MobX and GetX, each with distinct advantages and drawbacks.
+
+Bloc - For Control,Complexity.
+Provider - For Flexibility
+Riverpod - For Power and ease
+MobX - For Simplicity
+GetX - FOr Quick Development.
+
+Q2) Explain BloC, Provider, Riverpod, GetX, MobX?
