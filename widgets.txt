@@ -1,0 +1,36 @@
+Till now 
+I have came across widgets like
+1 - container
+2 - padding
+3 - column
+4 - row
+5 - stateless and stateful widgets
+6 - listview , .separator, .builder
+7 - appbar
+8 - drawer
+9 - Text
+10 - SizedBox
+11 - Image.asset
+12 - ClipRRect
+13 - Expand
+14 - Aspect Ratio
+15 - TextField
+16 - Navigator for moving from one page to another.
+
+More to Learn Ahead
+Flutter Animations
+- AnimatedContainer()
+- AnimatedOpacity()
+- TweenAnimatedBuilder()
+
+Flutter PaintView
+Firebase Authentication
+
+My folders for flutter
+1: my basic app - single page appliactions and bookmyshow prototype
+2: Craft my plate - Internship process assignment
+3: Travels app - In making with Animations
+4: Animation page - Dealing with animations and learning paintwork as well. 
+
+
+
