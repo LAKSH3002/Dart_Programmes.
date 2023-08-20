@@ -1,4 +1,4 @@
-# Flutter_projects
+# Dart Programming language - Tersm and definitions.
 This repository consists of few Basic Programs of dart which has the basic concepts of dart programming language in it.
 
 - It also has a set of very basic projects of flutter framework.
